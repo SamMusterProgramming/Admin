@@ -1,0 +1,47 @@
+
+@import url(https://fonts.googleapis.com/css?family=Lato);
+@import url(https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.6.3/css/font-awesome.css);
+body{
+   
+}
+.profile{
+    display: flex;
+    flex-direction: column;
+    justify-content: start;
+    align-items: center;
+    min-height: 460px;
+    max-height: 1200px;
+    height: 100%;
+    background-color: white;
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+
+}
+.profile p {
+    color: rgb(42, 35, 35);
+    font-size: 12px;
+}
+.profile img {
+    width: 250px;
+    height: 250px;
+    border-radius: 50%;
+    object-fit: fill;
+    margin-top: 30px;
+}
+#admin {
+    margin-top: 5%;
+    font-style: italic;
+    font-weight: 500;
+    font-size: 17px;
+}
+#dashboard {
+    font-style:normal;
+    font-size: 18px;
+    font-weight: 200;
+}
+
+.contactContainer {
+    display: flex;
+    flex-direction: column;
+    justify-content: start;
+    align-items: center;
+}
